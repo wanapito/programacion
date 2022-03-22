@@ -19,7 +19,9 @@ public class pruebas {
 		System.out.println(trabajador2.devuleveDatos());
 		System.out.println(trabajador3.devuleveDatos());
 		System.out.println(trabajador4.devuleveDatos());
-
+		// al ser un static se debe llamar a la clase y no al objetos
+		System.out.println(Empleados.dameIdSiguiente());
+		
 	}
 
 }
@@ -51,6 +53,11 @@ class Empleados {
 	public String devuleveDatos() {
 		return "el nombre es: " + nombre + " la seccion es " + seccion + "y el id es =" + Id;
 	}
+	//contruimos getter static
+	public static String dameIdSiguiente() {
+		return "el Id sguiente es : "+IdSiguiente;
+	}
+	
 
 	// cremaos los atributos
 	// con "final" no podemos modificar la varibale

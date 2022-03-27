@@ -23,7 +23,7 @@ public class Coche {
 	private int peso_total;
 	private boolean asientos_cuero,climatizador;
 
-	/**
+	/*
     vamos a contruir un constructor
 	 */
 	public Coche() {
@@ -56,7 +56,7 @@ public class Coche {
 		return "el color del coche es "+color;
 	}
 	//con el getter solictamos todos los datos que queramos en una sola frase
-	public String dime_datos_generale() {
+	public String dime_datos_generales() {
 		return "la plataforma del vehiculo tiene " +ruedas+" ruedas"
 				+"\n mide "+largo/1000+" metros \ncon un ancho de "+ancho
 				+" cm y un peso de plataforma de "+peso_plataforma+" kg ";
@@ -68,6 +68,7 @@ public class Coche {
 		}else{
 			this.asientos_cuero=false;
 		}}
+	//getter 
 	public String dime_asientos() {
 		if (asientos_cuero==true) {
 			return "el coche tiene asientos de cuero";
@@ -76,6 +77,7 @@ public class Coche {
 			return "el coche tiene asiento de serie";
 		}
 	}
+	//setter 
 	public void configura_climatizador (String climatizdador) {
 		if (climatizdador.equalsIgnoreCase("si")) {
 			this.climatizador=true;
@@ -84,6 +86,7 @@ public class Coche {
 			this.climatizador=false;
 		}
 	}
+	//getter
 	public String dime_climatizador() {
 		if (climatizador==true) {
 			return "el coche incorpora climatizador";

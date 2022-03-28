@@ -1,9 +1,5 @@
 package unidad_02;
 
-import java.io.NotActiveException;
-import java.security.PublicKey;
-import java.util.Scanner;
-
 public class Actividad_2_05_notas {
 	/*
 	 * Realizar un programa que visualice en pantalla la nota la nota más alta y las más baja 

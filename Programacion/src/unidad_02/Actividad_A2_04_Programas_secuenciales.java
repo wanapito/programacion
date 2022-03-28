@@ -2,8 +2,6 @@ package unidad_02;
 
 import java.util.Scanner;
 
-import javax.tools.Diagnostic;
-
 public class Actividad_A2_04_Programas_secuenciales {
 
 	public static void main(String[] args) {

@@ -2,8 +2,6 @@ package unidad_02;
 
 import java.util.Scanner;
 
-import javax.swing.plaf.synth.SynthOptionPaneUI;
-
 public class Actividad_2_06_Calculo_año_bisiesto {
 
 	public static void main(String[] args) {

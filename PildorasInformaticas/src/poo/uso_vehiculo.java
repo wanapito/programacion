@@ -1,7 +1,5 @@
 package poo;
 
-import javax.swing.JOptionPane;
-
 /**
  *
  * @author Ivan

@@ -1,0 +1,17 @@
+
+public class capitulo22_sentencia_ciclo_while {
+
+	public static void main(String[] args) {
+		// TODO Esbozo de método generado automáticamente
+		var contador =0;
+		while (contador<3) {
+			System.out.println("contador"+contador);
+			//postincremento cada vez que se 
+			contador++;
+			
+		}
+		
+
+	}
+
+}

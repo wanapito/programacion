@@ -2,7 +2,6 @@
 public class capitulo22_sentencia_ciclo_while {
 
 	public static void main(String[] args) {
-		// TODO Esbozo de método generado automáticamente
 		var contador =0;
 		//while hara este ciclo hasta que se cumpla la condicion 
 		while (contador<3) {

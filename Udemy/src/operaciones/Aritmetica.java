@@ -9,7 +9,9 @@ public Aritmetica () {
 	System.out.println("ejecuntando constructor vacio");
 }
 public Aritmetica(int a , int b ) {
-	
+	this.a =a;
+	this.b=b;
+	System.out.println("ejecutando contructor con argumentos ");
 }
 //definimos metodos
 //shetter

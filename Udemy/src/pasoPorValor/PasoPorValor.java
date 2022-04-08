@@ -6,12 +6,12 @@ public class PasoPorValor {
 		// TODO Esbozo de método generado automáticamente
 int x =10;
 System.out.println("x ="+x);
-//estamos pasando una copia del valor a otra variable 
+//Estamos pasando una copia del valor a otra variable 
 cambioValor(x);
 
 	}
-	//los metodos que esten en el main deben se ser tambien estaticos 
+	//Los métodos que estén en el main deben se ser también estáticos 
 public static void cambioValor(int arg1) {
-	System.out.println("arg1 "+arg1);
+	System.out.println("Arg1 "+arg1);
 }
 }

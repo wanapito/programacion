@@ -1,15 +1,16 @@
 package clases;
-//una clase es una plantilla 
+//Una clase es una plantilla 
 public class Persona {
-	//declaramos los atributos de la clase 
-String nombre ;
-String apellido;
-String genero;
-String ocupacion;
-//metodo shetter
+	//Declaramos los atributos de la clase 
+//La declaramos public para poder utilizarlas en otras clases 
+public String nombre ;
+public String apellido;
+public String genero;
+public String ocupacion;
+//Método setter
 public void desplegarInformacion() {
-	System.out.println("nombre: "+nombre);
-	System.out.println("apellido: "+apellido);
+	System.out.println("Nombre: "+nombre);
+	System.out.println("Apellido: "+apellido);
 }
 
 

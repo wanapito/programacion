@@ -1,4 +1,3 @@
-LexicalSortingAction.isChecked=true
 breadcrumb.org.eclipse.jdt.ui.JavaPerspective=true
 content_assist_autoactivation_triggers_java=ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz.
 content_assist_category_order=org.eclipse.jdt.ui.templateProposalCategory\:0\u0000org.eclipse.jdt.ui.swtProposalCategory\:1\u0000org.eclipse.jdt.ui.javaNoTypeProposalCategory\:65537\u0000org.eclipse.jdt.ui.javaTypeProposalCategory\:3\u0000org.eclipse.jdt.ui.textProposalCategory\:65539\u0000org.eclipse.jdt.ui.javaAllProposalCategory\:65540\u0000org.eclipse.jdt.ui.javaChainProposalCategory\:65541\u0000org.eclipse.jdt.ui.javaPostfixProposalCategory\:65542\u0000com.umlet.plugin.umlet_proposals\:65543\u0000
@@ -6,7 +5,8 @@ content_assist_completion_replacement_background=200,200,0
 content_assist_completion_replacement_foreground=194,0,0
 content_assist_disabled_computers=org.eclipse.jdt.ui.javaPostfixProposalCategory\u0000com.umlet.plugin.umlet_proposals\u0000org.eclipse.jdt.ui.javaNoTypeProposalCategory\u0000org.eclipse.jdt.ui.javaTypeProposalCategory\u0000org.eclipse.jdt.ui.javaChainProposalCategory\u0000
 content_assist_favorite_static_members=org.junit.Assert.*;org.junit.Assume.*;org.junit.jupiter.api.Assertions.*;org.junit.jupiter.api.Assumptions.*;org.junit.jupiter.api.DynamicContainer.*;org.junit.jupiter.api.DynamicTest.*;org.mockito.ArgumentMatchers.*;org.mockito.Mockito.*
-content_assist_lru_history=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?><history maxLHS\="100" maxRHS\="10"><lhs name\="java.util.Iterator"><rhs name\="java.util.Scanner"/></lhs><lhs name\="java.io.Closeable"><rhs name\="java.util.Scanner"/></lhs><lhs name\="java.lang.AutoCloseable"><rhs name\="java.util.Scanner"/></lhs><lhs name\="unidad_03.Actividad_A3_04_clase_Circulo"><rhs name\="unidad_03.Actividad_A3_04_clase_Circulo"/></lhs><lhs name\="unidad_03.Actividad_A3_05_clase_rectangulo"><rhs name\="unidad_03.Actividad_A3_05_clase_rectangulo"/></lhs><lhs name\="unidad_03.Actividad_A3_01_Clase_Circulo"><rhs name\="unidad_03.Actividad_A3_01_Clase_Circulo"/></lhs><lhs name\="unidad_03.Actividad_A3_02_Clase_triaungulorectangulo"><rhs name\="unidad_03.Actividad_A3_02_Clase_triaungulorectangulo"/></lhs><lhs name\="unidad_03.Actividad_A3_02_Clase_rectangulo"><rhs name\="unidad_03.Actividad_A3_02_Clase_rectangulo"/></lhs><lhs name\="unidad_03.Actividad_A3_03_Clase_libro"><rhs name\="unidad_03.Actividad_A3_03_Clase_libro"/></lhs><lhs name\="operaciones.Aritmetica"><rhs name\="operaciones.Aritmetica"/></lhs><lhs name\="caja.Caja"><rhs name\="caja.Caja"/></lhs></history>
+content_assist_guess_method_arguments=false
+content_assist_lru_history=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?><history maxLHS\="100" maxRHS\="10"><lhs name\="java.util.Iterator"><rhs name\="java.util.Scanner"/></lhs><lhs name\="java.io.Closeable"><rhs name\="java.util.Scanner"/></lhs><lhs name\="java.lang.AutoCloseable"><rhs name\="java.util.Scanner"/></lhs><lhs name\="unidad_03.Actividad_A3_04_clase_Circulo"><rhs name\="unidad_03.Actividad_A3_04_clase_Circulo"/></lhs><lhs name\="unidad_03.Actividad_A3_05_clase_rectangulo"><rhs name\="unidad_03.Actividad_A3_05_clase_rectangulo"/></lhs><lhs name\="unidad_03.Actividad_A3_01_Clase_Circulo"><rhs name\="unidad_03.Actividad_A3_01_Clase_Circulo"/></lhs><lhs name\="unidad_03.Actividad_A3_02_Clase_triaungulorectangulo"><rhs name\="unidad_03.Actividad_A3_02_Clase_triaungulorectangulo"/></lhs><lhs name\="unidad_03.Actividad_A3_02_Clase_rectangulo"><rhs name\="unidad_03.Actividad_A3_02_Clase_rectangulo"/></lhs><lhs name\="unidad_03.Actividad_A3_03_Clase_libro"><rhs name\="unidad_03.Actividad_A3_03_Clase_libro"/></lhs><lhs name\="operaciones.Aritmetica"><rhs name\="operaciones.Aritmetica"/></lhs><lhs name\="caja.Caja"><rhs name\="caja.Caja"/></lhs><lhs name\="dominio_encapsulamiento.Persona"><rhs name\="dominio_encapsulamiento.Persona"/></lhs></history>
 content_assist_noUIThread_computation=false
 content_assist_number_of_computers=13
 content_assist_parameters_background=48,54,59
@@ -15,6 +15,8 @@ content_assist_prefix_completion=true
 content_assist_proposals_background=255,255,255
 content_assist_proposals_foreground=0,0,0
 eclipse.preferences.version=1
+formatter_profile=org.eclipse.jdt.ui.default_profile
+formatter_settings_version=22
 hoverModifierMasks=org.eclipse.jdt.ui.BestMatchHover;0;org.sf.feeling.decompiler.editor.DisassemblerJavadocHover;0;org.eclipse.jdt.internal.debug.ui.JavaDebugHover;0;org.eclipse.jdt.ui.ProblemHover;0;org.eclipse.jdt.ui.NLSStringHover;327680;org.eclipse.jdt.ui.JavadocHover;393216;org.eclipse.jdt.ui.AnnotationHover;0;org.eclipse.jdt.ui.JavaSourceHover;131072;
 hoverModifiers=org.eclipse.jdt.ui.BestMatchHover;0;org.sf.feeling.decompiler.editor.DisassemblerJavadocHover;\!0;org.eclipse.jdt.internal.debug.ui.JavaDebugHover;\!0;org.eclipse.jdt.ui.ProblemHover;\!0;org.eclipse.jdt.ui.NLSStringHover;Ctrl+Alt;org.eclipse.jdt.ui.JavadocHover;Ctrl+May\u00FAs;org.eclipse.jdt.ui.AnnotationHover;\!0;org.eclipse.jdt.ui.JavaSourceHover;May\u00FAs;
 java_bracket=208,208,208
@@ -38,7 +40,11 @@ org.eclipse.jdt.internal.ui.navigator.librariesnode=true
 org.eclipse.jdt.ui.exception.name=e
 org.eclipse.jdt.ui.formatterprofiles.version=22
 org.eclipse.jdt.ui.gettersetter.use.is=true
+org.eclipse.jdt.ui.ignorelowercasenames=true
+org.eclipse.jdt.ui.importorder=java;javax;org;com;
+org.eclipse.jdt.ui.ondemandthreshold=99
 org.eclipse.jdt.ui.overrideannotation=true
+org.eclipse.jdt.ui.staticondemandthreshold=99
 org.eclipse.jdt.ui.text.custom_code_templates=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?><templates/>
 org.eclipse.jdt.ui.typefilter.disabled=java.awt.*;java.rmi.*;org.graalvm.*
 org.eclipse.jdt.ui.typefilter.enabled=com.sun.*;io.micrometer.shaded.*;jdk.*;sun.*;java.awt.List

@@ -21,9 +21,9 @@ public class capitulo03 {
         System.out.println(i + j);
         //si de izquierda a derecha primero numero se hace suma y luego cadena
         System.out.println(i + j + usuario);
-        //si de izquierda a derecha primero hay palabra se hace solo enumeracion 
+        //Si de izquierda a derecha primero hay palabra se hace solo enumeración 
         System.out.println(usuario + i + " " + j);
-        //si ponemos parentesis damos prioridad a al parentesis
+        //Si ponemos paréntesis damos prioridad a al paréntesis
         System.out.println(usuario + (i + j));
 
     }

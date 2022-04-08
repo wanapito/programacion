@@ -1,4 +1,6 @@
-package operaciones;
+package test_operaciones;
+
+import dominio_operaciones.*;
 
 public class PruebaAritmetica {
 public static void main(String[] args) {
@@ -6,6 +8,7 @@ public static void main(String[] args) {
 	int a =10;
 	int b=2;
 	//Llamamos al método static
+
 mimetodo();
 	
 	
@@ -27,7 +30,7 @@ mimetodo();
 	aritmetica1.sumar();
 	//Definimos variable con un método 
 	int resultado=aritmetica1.sumarConRetorno();
-	System.out.println("resultado desde clase prueba "+resultado);
+	System.out.println("Resultado desde clase prueba "+resultado);
 	//Llamamos métodos y definimos los parámetros del argumento
 	resultado=aritmetica1.sumarArgumetos(5, 8);
 	System.out.println("Resultado usando argumentos "+resultado);

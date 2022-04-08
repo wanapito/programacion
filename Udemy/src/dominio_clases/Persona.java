@@ -1,4 +1,4 @@
-package clases;
+package dominio_clases;
 //Una clase es una plantilla 
 public class Persona {
 	//Declaramos los atributos de la clase 

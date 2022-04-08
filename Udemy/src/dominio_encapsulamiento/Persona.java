@@ -32,15 +32,16 @@ public class Persona {
 		
 	}
 	//Getter cuando es boolean en vez de get... es is....
-	public boolean isElinado() {
+	public boolean isEliminado() {
 		return this.eliminado;
 	}
 	//Setter 
 	public void setEliminado(boolean eliminado) {
 		this.eliminado=eliminado;
 }
-	//getter toString es metodo para imprimir valores de variables 
+	//Getter toString es método para imprimir valores de variables 
 	public String toString() {
 		return "Persona [Nombre :"+this.nombre+" "+"Sueldo "+this.sueldo +" "+"Eliminado "+this.eliminado+"]";
 	}
-}
+
+	}

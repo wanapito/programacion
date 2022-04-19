@@ -32,7 +32,6 @@
     <fullyQualifiedTypeName name="java.util.Scanner"/>
     <fullyQualifiedTypeName name="unidad_03.Actividad_A3_03_Clase_libro"/>
     <fullyQualifiedTypeName name="unidad_09.pilasColasDinamicas"/>
-    <fullyQualifiedTypeName name="javax.swing.plaf.synth.SynthOptionPaneUI"/>
     <fullyQualifiedTypeName name="operaciones.Aritmetica"/>
     <fullyQualifiedTypeName name="java.lang.System"/>
     <fullyQualifiedTypeName name="caja.Caja"/>
@@ -45,6 +44,15 @@
     <fullyQualifiedTypeName name="palabrathis.imprimir"/>
     <fullyQualifiedTypeName name="palabrathis.Imprimir"/>
     <fullyQualifiedTypeName name="dominio_encapsulamiento.Persona"/>
-    <fullyQualifiedTypeName name="java.lang.String"/>
     <fullyQualifiedTypeName name="dominio_contextoEstatico.Persona"/>
+    <fullyQualifiedTypeName name="java.lang.String"/>
+    <fullyQualifiedTypeName name="java.sql.Date"/>
+    <fullyQualifiedTypeName name="dominio_Herencia.Persona"/>
+    <fullyQualifiedTypeName name="java.awt.peer.CheckboxMenuItemPeer"/>
+    <fullyQualifiedTypeName name="dominio_Herencia.cliente"/>
+    <fullyQualifiedTypeName name="java.util.Date"/>
+    <fullyQualifiedTypeName name="javax.swing.plaf.multi.MultiPopupMenuUI"/>
+    <fullyQualifiedTypeName name="dominio_Herencia.empleado"/>
+    <fullyQualifiedTypeName name="javax.swing.plaf.synth.SynthOptionPaneUI"/>
+    <fullyQualifiedTypeName name="dominio_sobrecargametodos.Operaciones"/>
 </qualifiedTypeNameHistroy>

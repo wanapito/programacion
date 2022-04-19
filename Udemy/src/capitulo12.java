@@ -1,14 +1,8 @@
 
 import java.util.Scanner;
 
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
-/**
- *
- * @author Ivan
- */
+
+
 public class capitulo12 {
 
     public static void main(String args[]) {
@@ -29,6 +23,7 @@ public class capitulo12 {
         System.out.println(("precio: ")+"$" + precio);
         var envioGratuito = varBoolean;
         System.out.println("Envio Gratuito:" + varBoolean);
+        
   consola.close();  }
 
 }

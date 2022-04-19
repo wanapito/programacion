@@ -1,14 +1,12 @@
 package palabrathis;
 
-import javax.lang.model.element.Element;
-
 public class Palabrathis {
 
 	public static void main(String[] args) {
 	
 		// Creamos objeto
 		Persona persona =new Persona("Juan" , "Pérez");
-		//Imprimimos el objeto y nos dara su ubicación de memoria
+		//Imprimimos el objeto y nos dará su ubicación de memoria
 System.out.println("Persona ="+persona);
 System.out.println("Persona nombre "+persona.nombre);
 System.out.println("Persona apellido "+persona.apellido);

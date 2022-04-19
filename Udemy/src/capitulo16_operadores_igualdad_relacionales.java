@@ -1,5 +1,3 @@
-import javax.swing.plaf.synth.SynthOptionPaneUI;
-
 public class capitulo16_operadores_igualdad_relacionales {
 
 	public static void main(String[] args) {

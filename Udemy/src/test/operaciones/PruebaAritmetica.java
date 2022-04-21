@@ -1,6 +1,6 @@
-package test_operaciones;
+package test.operaciones;
 
-import dominio_operaciones.*;
+import dominio.operaciones.*;
 
 public class PruebaAritmetica {
 public static void main(String[] args) {

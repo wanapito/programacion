@@ -1,4 +1,4 @@
-package dominio_contextoEstatico;
+package dominio.contextoEstatico;
 
 public class Persona {
 	private int idPersona;

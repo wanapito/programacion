@@ -1,4 +1,6 @@
-package caja;
+package test.caja;
+
+import dominio.caja.Caja;
 
 public class PruebaCaja {
 

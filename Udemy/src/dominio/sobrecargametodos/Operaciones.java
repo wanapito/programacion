@@ -1,4 +1,4 @@
-package dominio_sobrecargametodos;
+package dominio.sobrecargametodos;
 
 public class Operaciones {
 	//Creamos método

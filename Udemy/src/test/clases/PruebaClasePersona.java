@@ -1,6 +1,6 @@
-package test_clases;
+package test.clases;
 
-import dominio_clases.Persona;
+import dominio.clases.Persona;
 
 public class PruebaClasePersona {
 

@@ -1,5 +1,5 @@
-package test_contextostatico;
-import dominio_contextoEstatico.*;
+package test.contextostatico;
+import dominio.contextoEstatico.*;
 //Creamos clase
 public class PersonaPrueba {
 	//Creamos variable clase

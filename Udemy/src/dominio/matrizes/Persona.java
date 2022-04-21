@@ -1,4 +1,4 @@
-package dominio.arrays;
+package dominio.matrizes;
 
 public class Persona {
 	// Creamos clase

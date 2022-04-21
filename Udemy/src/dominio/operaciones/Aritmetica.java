@@ -1,4 +1,4 @@
-package dominio_operaciones;
+package dominio.operaciones;
 
 public class Aritmetica {
 	//Creamos atributos 

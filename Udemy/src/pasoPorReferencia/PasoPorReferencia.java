@@ -2,7 +2,7 @@ package pasoPorReferencia;
 
 
 
-import dominio_clases.Persona;
+import dominio.clases.Persona;
 
 public class PasoPorReferencia {
 

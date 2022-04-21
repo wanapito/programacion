@@ -1,4 +1,4 @@
-package dominio_Herencia;
+package dominio.herencia;
 
 public class Persona {
 	// Indicamos variables tipo protected ya que al estar en herencia se

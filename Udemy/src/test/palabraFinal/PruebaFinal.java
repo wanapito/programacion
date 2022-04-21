@@ -1,7 +1,7 @@
-package test_palabraFinal;
+package test.palabraFinal;
 
 
-import dominio_palabraFinal.*;
+import dominio.palabraFinal.*;
 public class PruebaFinal {
 public static void main(String[] args) {
 	

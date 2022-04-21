@@ -1,4 +1,4 @@
-package dominio_Herencia;
+package dominio.herencia;
 
 public class empleado extends Persona {
 	//Se declaran variables tipo privado ya que no heredara hacia mas hijos 

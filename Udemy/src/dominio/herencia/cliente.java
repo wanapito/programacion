@@ -1,4 +1,4 @@
-package dominio_Herencia;
+package dominio.herencia;
 
 import java.util.Date;
 

@@ -1,4 +1,4 @@
-package dominio_palabraFinal;
+package dominio.palabraFinal;
 
 public class empleado // Extends persona
 // Al se una método final de la clase persona no de puede modificar

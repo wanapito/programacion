@@ -1,5 +1,5 @@
-package test_encapsulamiento;
-import dominio_encapsulamiento.*;
+package test.encapsulamiento;
+import dominio.encapsulamiento.*;
 public class PersonaPrueba {
 
 	public static void main(String[] args) {

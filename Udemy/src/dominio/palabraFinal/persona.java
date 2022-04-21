@@ -1,4 +1,4 @@
-package dominio_palabraFinal;
+package dominio.palabraFinal;
 
 public final class persona {
 

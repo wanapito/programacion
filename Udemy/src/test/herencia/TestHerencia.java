@@ -1,12 +1,10 @@
-package test_Herencia;
+package test.herencia;
 
 
 import java.util.Date;
 
-
-
-import dominio_Herencia.cliente;
-import dominio_Herencia.empleado;
+import dominio.herencia.cliente;
+import dominio.herencia.empleado;
 
 public class TestHerencia {
 

@@ -1,4 +1,4 @@
-package dominio_encapsulamiento;
+package dominio.encapsulamiento;
 
 public class Persona {
 	//Creamos variables tipo private 

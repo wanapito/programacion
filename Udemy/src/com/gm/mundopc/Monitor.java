@@ -1,16 +1,19 @@
 package com.gm.mundopc;
 
 public class Monitor {
-	private int idMonitor;
+	private final int idMonitor;
 	private String marca;
 	private double tamaño;
-	private int contadorMonitores;
+	private static int contadorMonitores;
 
 	private Monitor() {
-
+		this.idMonitor = ++contadorMonitores;
 	}
 	public Monitor(String marca, double tamaño) {
+		// Llamamos al constructor vació para que inicialice el contador
 		this();
+		this.tamaño = tamaño;
+		this.marca = marca;
 
 	}
 	/**
@@ -21,15 +24,7 @@ public class Monitor {
 	public int getIdMonitor() {
 		return idMonitor;
 	}
-	/**
-	 * Setter
-	 * 
-	 * @param idMonitor
-	 *            el idMonitor a establecer
-	 */
-	public void setIdMonitor(int idMonitor) {
-		this.idMonitor = idMonitor;
-	}
+
 	/**
 	 * Getter
 	 * 
@@ -72,20 +67,11 @@ public class Monitor {
 	public int getContadorMonitores() {
 		return contadorMonitores;
 	}
-	/**
-	 * Setter
-	 * 
-	 * @param contadorMonitores
-	 *            el contadorMonitores a establecer
-	 */
-	public void setContadorMonitores(int contadorMonitores) {
-		this.contadorMonitores = contadorMonitores;
-	}
+
 	@Override
 	public String toString() {
 		return "Monitor [idMonitor=" + idMonitor + ", marca=" + marca
-				+ ", tamaño=" + tamaño + ", contadorMonitores="
-				+ contadorMonitores + "]";
+				+ ", tamaño=" + tamaño + "]";
 	}
 
 }

@@ -19,8 +19,8 @@ public class MundoPC {
 		Raton raton2 = new Raton("USB", "asus");
 		Teclado teclado2 = new Teclado("Usb", "hp");
 		Monitor monitor2 = new Monitor("hp", 25.0);
-		Computadora computadora2 = new Computadora("gammer", monitor1, teclado1,
-				raton1);
+		Computadora computadora2 = new Computadora("gammer", monitor2, teclado2,
+				raton2);
 
 		Orden orden1 = new Orden();
 		orden1.agregarComputadora(computadora1);

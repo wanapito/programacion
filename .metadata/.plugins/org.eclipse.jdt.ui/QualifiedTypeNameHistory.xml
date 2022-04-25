@@ -1,23 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="java.io.StringBufferInputStream"/>
-    <fullyQualifiedTypeName name="poo.Empleados"/>
-    <fullyQualifiedTypeName name="poo.Furgoneta"/>
-    <fullyQualifiedTypeName name="poo.Coche"/>
-    <fullyQualifiedTypeName name="javax.tools.Diagnostic"/>
-    <fullyQualifiedTypeName name="java.awt.desktop.AboutHandler"/>
-    <fullyQualifiedTypeName name="javax.security.sasl.RealmCallback"/>
-    <fullyQualifiedTypeName name="java.lang.invoke.VarHandle"/>
-    <fullyQualifiedTypeName name="javax.swing.table.TableStringConverter"/>
-    <fullyQualifiedTypeName name="unidad_03.Complejo"/>
-    <fullyQualifiedTypeName name="unidad_03.Actividad_A3_02_Atributos_clase_Población.individuo"/>
-    <fullyQualifiedTypeName name="java.lang.invoke.StringConcatFactory"/>
-    <fullyQualifiedTypeName name="unidad_03.Actividad_A3_04_clase_Circulo.circulo"/>
-    <fullyQualifiedTypeName name="unidad_03.Actividad_A3_04_clase_Circulo"/>
-    <fullyQualifiedTypeName name="java.security.KeyStore.PrivateKeyEntry"/>
-    <fullyQualifiedTypeName name="unidad_03.Actividad_A3_05_clase_rectangulo"/>
-    <fullyQualifiedTypeName name="java.util.Base64"/>
-    <fullyQualifiedTypeName name="javax.swing.event.RowSorterListener"/>
     <fullyQualifiedTypeName name="unidad_03.Actividad_3_01_Clase_complejo"/>
     <fullyQualifiedTypeName name="java.awt.geom.Area"/>
     <fullyQualifiedTypeName name="java.time.Year"/>
@@ -45,7 +27,6 @@
     <fullyQualifiedTypeName name="palabrathis.Imprimir"/>
     <fullyQualifiedTypeName name="dominio_encapsulamiento.Persona"/>
     <fullyQualifiedTypeName name="dominio_contextoEstatico.Persona"/>
-    <fullyQualifiedTypeName name="java.lang.String"/>
     <fullyQualifiedTypeName name="java.sql.Date"/>
     <fullyQualifiedTypeName name="dominio_Herencia.Persona"/>
     <fullyQualifiedTypeName name="java.awt.peer.CheckboxMenuItemPeer"/>
@@ -53,6 +34,30 @@
     <fullyQualifiedTypeName name="java.util.Date"/>
     <fullyQualifiedTypeName name="javax.swing.plaf.multi.MultiPopupMenuUI"/>
     <fullyQualifiedTypeName name="dominio_Herencia.empleado"/>
-    <fullyQualifiedTypeName name="javax.swing.plaf.synth.SynthOptionPaneUI"/>
     <fullyQualifiedTypeName name="dominio_sobrecargametodos.Operaciones"/>
+    <fullyQualifiedTypeName name="mx.com.globalmentoring.Utileria"/>
+    <fullyQualifiedTypeName name="java.lang.Override"/>
+    <fullyQualifiedTypeName name="pasoPorValor.PasoPorValor"/>
+    <fullyQualifiedTypeName name="dominio_palabraFinal.persona"/>
+    <fullyQualifiedTypeName name="dominio_arrays.Persona"/>
+    <fullyQualifiedTypeName name="mx.com.gm.ventas.producto"/>
+    <fullyQualifiedTypeName name="javax.sql.rowset.JoinRowSet"/>
+    <fullyQualifiedTypeName name="javax.swing.plaf.synth.SynthOptionPaneUI"/>
+    <fullyQualifiedTypeName name="mx.com.gm.ventas.Producto"/>
+    <fullyQualifiedTypeName name="javax.swing.plaf.IconUIResource"/>
+    <fullyQualifiedTypeName name="java.lang.Integer"/>
+    <fullyQualifiedTypeName name="com.gm.mundopc.DispositivoEntrada"/>
+    <fullyQualifiedTypeName name="java.lang.AutoCloseable"/>
+    <fullyQualifiedTypeName name="java.lang.String"/>
+    <fullyQualifiedTypeName name="javax.management.loading.PrivateClassLoader"/>
+    <fullyQualifiedTypeName name="com.gm.mundopc.Raton"/>
+    <fullyQualifiedTypeName name="com.gm.mundopc.Teclado"/>
+    <fullyQualifiedTypeName name="com.gm.mundopc.Monitor"/>
+    <fullyQualifiedTypeName name="mx.com.gm.ventas.orden"/>
+    <fullyQualifiedTypeName name="com.gm.mundopc.Computadora"/>
+    <fullyQualifiedTypeName name="com.gm.mundopc.Orden"/>
+    <fullyQualifiedTypeName name="Evaluacion_3.Entrada"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="javax.swing.text.html.HTMLDocument.Iterator"/>
+    <fullyQualifiedTypeName name="java.util.Iterator"/>
 </qualifiedTypeNameHistroy>

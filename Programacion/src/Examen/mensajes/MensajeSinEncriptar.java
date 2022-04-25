@@ -3,18 +3,16 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package com.mycompany.examen_2019_mensajes;
+package Examen.mensajes;
 
 /**
  *
  * @author brc-9
  */
-public class MensajeSinEncriptar extends Mensaje{
+public class MensajeSinEncriptar extends Mensaje {
 
-    public MensajeSinEncriptar(String mensaje) {
-        super(mensaje);
-    }
+	public MensajeSinEncriptar(String mensaje) {
+		super(mensaje);
+	}
 
-   
-    
 }

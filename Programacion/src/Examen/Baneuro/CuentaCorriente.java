@@ -3,16 +3,17 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package com.mycompany.examen_2018_baneuro;
+package Examen.Baneuro;
 
 /**
  *
  * @author brc-9
  */
-public class CuentaCorriente  extends Cuenta{
-    
-    public CuentaCorriente(CCC numeroCuentaCCC, String nombre, String apellidos, double saldo) {
-        super(numeroCuentaCCC, nombre, apellidos, saldo);
-    }
-    
+public class CuentaCorriente extends Cuenta {
+
+	public CuentaCorriente(CCC numeroCuentaCCC, String nombre, String apellidos,
+			double saldo) {
+		super(numeroCuentaCCC, nombre, apellidos, saldo);
+	}
+
 }

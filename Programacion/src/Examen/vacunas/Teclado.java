@@ -1,12 +1,11 @@
-package examen.vacunas;
+package Examen.vacunas;
 import java.util.InputMismatchException;
 import java.util.Scanner;
 
 public class Teclado {
-	
+
 	static Scanner sc = new Scanner(System.in);
 	static Scanner scString = new Scanner(System.in);
-
 
 	public static int leerEntero(String mensaje, int min, int max) {
 		int numero = 0;
@@ -18,7 +17,8 @@ public class Teclado {
 				if (numero >= min && numero <= max) {
 					respuestValida = true;
 				} else {
-					System.err.println("Introduce un numero entre " + min + " y " + max);
+					System.err.println(
+							"Introduce un numero entre " + min + " y " + max);
 				}
 			} catch (InputMismatchException e) {
 				sc.nextLine();
@@ -27,7 +27,7 @@ public class Teclado {
 		}
 		return numero;
 	}
-	
+
 	public static int leerEntero(String mensaje) {
 		int numero = 0;
 		boolean respuestValida = false;
@@ -43,7 +43,7 @@ public class Teclado {
 		}
 		return numero;
 	}
-	
+
 	public static String leerTexto(String mensaje) {
 		String texto;
 		System.out.println(mensaje);

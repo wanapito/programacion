@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package com.mycompany.examen_2018_taller;
+package Examen.taller;
 
 /**
  *
@@ -11,28 +11,28 @@ package com.mycompany.examen_2018_taller;
  */
 public class Reparacion extends Trabajo {
 
-    protected double precioMaterial;
+	protected double precioMaterial;
 
-    public double getPrecioMaterial() {
-        return precioMaterial;
-    }
+	public double getPrecioMaterial() {
+		return precioMaterial;
+	}
 
-    public void setPrecioMaterial(double precioMaterial) {
-        this.precioMaterial = precioMaterial;
-    }
+	public void setPrecioMaterial(double precioMaterial) {
+		this.precioMaterial = precioMaterial;
+	}
 
-    public Reparacion(String descripcion) {
-        super(descripcion);
-        this.precioMaterial = 0;
-    }
+	public Reparacion(String descripcion) {
+		super(descripcion);
+		this.precioMaterial = 0;
+	}
 
-    public void usarMaterial(double precio) {
-        if (!estaFinalizado) {
-            precioMaterial = precioMaterial + precio;
-            System.out.println("Precio material actual: " + getNumeroHoras());
-        } else {
-            System.err.println("El trabajo esta finalizado");
-        }
-    }
+	public void usarMaterial(double precio) {
+		if (!estaFinalizado) {
+			precioMaterial = precioMaterial + precio;
+			System.out.println("Precio material actual: " + getNumeroHoras());
+		} else {
+			System.err.println("El trabajo esta finalizado");
+		}
+	}
 
 }

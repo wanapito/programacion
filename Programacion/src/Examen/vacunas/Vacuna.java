@@ -1,10 +1,10 @@
-package examen.vacunas;
+package Examen.vacunas;
 import java.io.Serializable;
 
-public class Vacuna implements Serializable{
+public class Vacuna implements Serializable {
 	protected String nombre;
 	protected String fecha;
-	
+
 	public Vacuna(String nombre, String fecha) {
 		this.nombre = nombre;
 		this.fecha = fecha;
@@ -22,6 +22,5 @@ public class Vacuna implements Serializable{
 	public void setFecha(String fecha) {
 		this.fecha = fecha;
 	}
-	
-	
+
 }

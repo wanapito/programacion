@@ -3,9 +3,9 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package examen.tiendaRopa;
+package Examen.tiendaRopa;
 
-import static examen.tiendaRopa.iDevolucion.diasDevolucion;
+import static Examen.tiendaRopa.iDevolucion.diasDevolucion;
 
 import java.io.File;
 import java.io.FileInputStream;

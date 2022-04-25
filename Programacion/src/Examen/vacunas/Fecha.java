@@ -1,7 +1,5 @@
-package examen.vacunas;
-import java.sql.Date;
+package Examen.vacunas;
 import java.util.Calendar;
-import java.util.GregorianCalendar;
 
 public class Fecha {
 	static Calendar cal = Calendar.getInstance();
@@ -13,7 +11,7 @@ public class Fecha {
 	static int mesSegundaFecha;
 	static int yearSegundaFecha;
 	static Calendar fecha2;
-	
+
 	public static Calendar sumarDias(int dia, int mes, int anio, int dias) {
 		Calendar fechaCalendar = Calendar.getInstance();
 		fechaCalendar.set(anio, mes, dia);
@@ -21,5 +19,4 @@ public class Fecha {
 		return fechaCalendar;
 	}
 
-	
 }

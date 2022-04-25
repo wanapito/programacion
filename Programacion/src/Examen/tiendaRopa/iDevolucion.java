@@ -1,5 +1,5 @@
 
-package examen.tiendaRopa;
+package Examen.tiendaRopa;
 
 public interface iDevolucion {
 	final int diasDevolucion = 30;

@@ -1,11 +1,11 @@
-package examen.vacunas;
+package Examen.vacunas;
 import java.io.Serializable;
 
-public class Paciente implements Serializable{
+public class Paciente implements Serializable {
 	private String nombreApellidos;
 	private String telefono;
 	private Vacuna vacuna;
-	
+
 	public Paciente(String nombreApellidos, String telefono, Vacuna vacuna) {
 		this.nombreApellidos = nombreApellidos;
 		this.telefono = telefono;
@@ -38,16 +38,12 @@ public class Paciente implements Serializable{
 
 	@Override
 	public String toString() {
-		String toString = "\nPaciente" 
-				+ "\n------------------------------" 
+		String toString = "\nPaciente" + "\n------------------------------"
 				+ "\n Nombre Apellidos: " + getNombreApellidos()
-				+ "\n Telefono:  " + getTelefono()
-				+ "\n Nombre Vacuna: " + getVacuna().getNombre()
-				+ "\n Fecha primera dosis  " + getVacuna().getFecha()
-				+ "\n-------------------------------";  
+				+ "\n Telefono:  " + getTelefono() + "\n Nombre Vacuna: "
+				+ getVacuna().getNombre() + "\n Fecha primera dosis  "
+				+ getVacuna().getFecha() + "\n-------------------------------";
 		return toString;
 	}
-	
-	
-	
+
 }

@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package com.mycompany.examen_2018_taller;
+package Examen.taller;
 
 /**
  *
@@ -11,25 +11,23 @@ package com.mycompany.examen_2018_taller;
  */
 public class Revision extends Trabajo {
 
-    public Revision(String descripcion) {
-        super(descripcion);
-    }
+	public Revision(String descripcion) {
+		super(descripcion);
+	}
 
-    @Override
-    protected double calcularPrecio() {
-        return (super.calcularPrecio()) + 20;
-    }
+	@Override
+	protected double calcularPrecio() {
+		return (super.calcularPrecio()) + 20;
+	}
 
-    @Override
-    public String toString() {
-        return "\nRevision\n"
-                + "-------------------------------\n"
-                + "Identidicador Trabajo:" + identidicadorTrabajo
-                + "\n Descripcion: " + descripcion
-                + "\n Numero Horas: " + numeroHoras
-                + "\n Trabajo finalizado: " + estaFinalizado
-                + "\n Precio del servicio: " + calcularPrecio()
-                + "\n-------------------------------";
-    }
+	@Override
+	public String toString() {
+		return "\nRevision\n" + "-------------------------------\n"
+				+ "Identidicador Trabajo:" + identidicadorTrabajo
+				+ "\n Descripcion: " + descripcion + "\n Numero Horas: "
+				+ numeroHoras + "\n Trabajo finalizado: " + estaFinalizado
+				+ "\n Precio del servicio: " + calcularPrecio()
+				+ "\n-------------------------------";
+	}
 
 }

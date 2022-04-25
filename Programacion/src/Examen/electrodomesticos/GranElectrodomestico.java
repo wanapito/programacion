@@ -1,4 +1,4 @@
-package examen.electrodomesticos;
+package Examen.electrodomesticos;
 
 import java.util.Scanner;
 

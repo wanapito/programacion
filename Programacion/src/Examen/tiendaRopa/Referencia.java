@@ -1,4 +1,4 @@
-package examen.tiendaRopa;
+package Examen.tiendaRopa;
 
 import java.io.Serializable;
 

@@ -1,4 +1,4 @@
-package test.variables;
+package Test.variables;
 
 public class TestArgumentosVariables {
 	public static void main(String[] args) {

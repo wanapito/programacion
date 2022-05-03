@@ -25,13 +25,13 @@ import java.util.Scanner;
 
 public class Actividad_A3_04_NIF {
 	private int numero;
-	private String letra;
+	private char letra;
 	public Actividad_A3_04_NIF() {
 
 	}
 	public Actividad_A3_04_NIF(int numero) {
 		this.numero = numero;
-		this.letra = obtenerLetra(numero);
+		this.letra = (char) obtenerLetra(numero);
 
 	}
 	public int leer() {
@@ -43,76 +43,76 @@ public class Actividad_A3_04_NIF {
 		return numero;
 
 	}
-	public String obtenerLetra(int numero) {
+	public int obtenerLetra(int numero) {
 
 		if (numero % 23 == 0) {
-			letra = "T";
+			letra = 'T';
 		}
 		if (numero % 23 == 1) {
-			letra = "R";
+			letra = 'R';
 		}
 		if (numero % 23 == 2) {
-			letra = "W";
+			letra = 'W';
 		}
 		if (numero % 23 == 3) {
-			letra = "A";
+			letra = 'A';
 		}
 		if (numero % 23 == 4) {
-			letra = "G";
+			letra = 'G';
 		}
 		if (numero % 23 == 5) {
-			letra = "M";
+			letra = 'M';
 		}
 		if (numero % 23 == 6) {
-			letra = "Y";
+			letra = 'Y';
 		}
 		if (numero % 23 == 7) {
-			letra = "F";
+			letra = 'F';
 		}
 		if (numero % 23 == 8) {
-			letra = "P";
+			letra = 'P';
 		}
 		if (numero % 23 == 9) {
-			letra = "D";
+			letra = 'D';
 		}
 		if (numero % 23 == 10) {
-			letra = "X";
+			letra = 'X';
 		}
 		if (numero % 23 == 11) {
-			letra = "B";
+			letra = 'B';
 		}
 		if (numero % 23 == 12) {
-			letra = "N";
+			letra = 'N';
 		}
 		if (numero % 23 == 13) {
-			letra = "J";
+			letra = 'J';
 		}
 		if (numero % 23 == 14) {
-			letra = "Z";
+			letra = 'Z';
 		}
 		if (numero % 23 == 15) {
-			letra = "S";
+			letra = 'S';
 		}
 		if (numero % 23 == 16) {
-			letra = "Q";
+			letra = 'Q';
 		}
 		if (numero % 23 == 17) {
-			letra = "V";
+			letra = 'V';
 		}
 		if (numero % 23 == 18) {
-			letra = "H";
+			letra = 'H';
 		}
 		if (numero % 23 == 19) {
-			letra = "L";
+			letra = 'L';
 		}
 		if (numero % 23 == 20) {
-			letra = "C";
+			letra = 'C';
 		}
 		if (numero % 23 == 21) {
-			letra = "K";
+			letra = 'K';
 		}
 		if (numero % 23 == 22) {
-			letra = "E";
+			letra = 'E';
 		}
 
 		return letra;

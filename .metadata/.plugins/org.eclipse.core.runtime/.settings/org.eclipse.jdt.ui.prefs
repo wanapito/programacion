@@ -38,6 +38,7 @@ java_string=220,120,220
 matchingBracketsColor=244,245,246
 org.eclipse.jdt.internal.ui.navigator.layout=2
 org.eclipse.jdt.internal.ui.navigator.librariesnode=true
+org.eclipse.jdt.quickassist.lightbulb=true
 org.eclipse.jdt.ui.exception.name=e
 org.eclipse.jdt.ui.formatterprofiles.version=22
 org.eclipse.jdt.ui.gettersetter.use.is=true

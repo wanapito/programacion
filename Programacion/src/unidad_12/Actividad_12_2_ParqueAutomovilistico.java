@@ -24,7 +24,7 @@ import javax.swing.JTextField;
 public class Actividad_12_2_ParqueAutomovilistico {
 
 	private JFrame frmParqueAutomovilistico;
-
+	// r
 	private JLabel lblMatricula;
 	private JLabel lblNombrePropietario;
 	private JLabel lblNombreBastidor;

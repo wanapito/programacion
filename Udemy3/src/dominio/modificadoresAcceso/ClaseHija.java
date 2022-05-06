@@ -1,6 +1,4 @@
-package Test.modificadoresAcceso;
-//Importamos 
-import dominio.modificadoresAcceso.Clase1;
+package dominio.modificadoresAcceso;
 
 //Hacemos a hacer una herencia de otra clase con la palabra extendeds
 public class ClaseHija extends Clase1 {
@@ -13,6 +11,12 @@ public class ClaseHija extends Clase1 {
 		System.out.println("atributo protegido " + this.atributoProtected);
 		// llamamos a metodo protegido
 		this.metodoProtegido();
+		// llamamos al atributo default
+		this.atributoDefault = "modificacion atributo default";
+		// imprimimos atributo default
+		System.out.println("atributo default " + this.atributoDefault);
+		// llamamos al metodo default
+		this.metododefault();
 	}
 
 }

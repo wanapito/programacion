@@ -10,14 +10,20 @@ public class Clase1 {
 	// al ser tipo protected no se pude acceder desde cualquier sitio solo desde
 	// extends y super()
 	protected String atributoProtected = "varlos atributo protected";
-	// Al ser publico se puede acceder desde cualquier sitio
+	// Al ser default se puede acceder desde cualquier sitio
+	String atributoDefault = "valor de atributo default";
 
+	// Al ser publico se pude acceder desde cualqui sitio
 	public Clase1() {
 		System.out.println("Constructor publico");
 	}
 	// al ser construtos tipo protected no se puede utilzar fuera de esta clase
 	protected Clase1(char a) {
 		System.out.println("Constructor protected");
+	}
+	// al ser una clase tipo default no hay que especificar nada
+	Clase1(String b) {
+		System.out.println("Constructor default");
 	}
 	// Al ser publico se puede acceder desde cualquier sitio
 	public void metodoPublico() {
@@ -27,5 +33,8 @@ public class Clase1 {
 	protected void metodoProtegido() {
 		System.out.println("metodo protected");
 	}
-
+	// al ser un metodo default no hay que especificar el tipo del metodo
+	void metododefault() {
+		System.out.println("metodo default");
+	}
 }

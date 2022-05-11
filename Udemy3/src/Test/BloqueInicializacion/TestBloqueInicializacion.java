@@ -1,6 +1,6 @@
 package Test.BloqueInicializacion;
 
-import domino.BloqueInicializacion.Persona;
+import dominio.BloqueInicializacion.Persona;
 
 public class TestBloqueInicializacion {
 

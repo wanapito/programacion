@@ -1,4 +1,4 @@
-package domino.BloqueInicializacion;
+package dominio.BloqueInicializacion;
 
 public class Persona {
 	// Definimos atributos

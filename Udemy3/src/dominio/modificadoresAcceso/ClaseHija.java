@@ -4,7 +4,7 @@ package dominio.modificadoresAcceso;
 public class ClaseHija extends Clase1 {
 	public ClaseHija() {
 		// con super llamamos a los atributos de la clase de la que se hereda
-		super();
+		super(0);
 		// llamamos a atributo protegido
 		this.atributoProtected = "Modificación atributo protected";
 		// imprimimos atributo protegido

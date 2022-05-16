@@ -13,7 +13,15 @@ public class ConversionObjetos {
 		// vamos a ver lo detalles del objeto
 		System.out.println("Empleado =" + empleado);
 		System.out.println("Empleado =" + empleado.getDetalles());
+		// estamos convirtiendo un empleado en ewcritor
 		((Escritor) empleado).getTipoEscritura();
+		// estamo haciendo lo mismo en dos lineas
+		Escritor escritor = (Escritor) empleado;
+		escritor.getTipoEscritura();
+		// estamos haciendo que el escritor tenga valores de empleado
+		Empleado empleado2 = escritor;
+		System.out.println("Empleado =" + empleado2.getDetalles());
+
 	}
 
 }

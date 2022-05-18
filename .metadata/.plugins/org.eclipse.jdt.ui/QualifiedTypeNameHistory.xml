@@ -1,22 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="mx.com.gm.ventas.producto"/>
-    <fullyQualifiedTypeName name="javax.sql.rowset.JoinRowSet"/>
-    <fullyQualifiedTypeName name="mx.com.gm.ventas.Producto"/>
-    <fullyQualifiedTypeName name="javax.swing.plaf.IconUIResource"/>
-    <fullyQualifiedTypeName name="com.gm.mundopc.DispositivoEntrada"/>
-    <fullyQualifiedTypeName name="java.lang.AutoCloseable"/>
-    <fullyQualifiedTypeName name="com.gm.mundopc.Raton"/>
-    <fullyQualifiedTypeName name="com.gm.mundopc.Teclado"/>
-    <fullyQualifiedTypeName name="com.gm.mundopc.Monitor"/>
-    <fullyQualifiedTypeName name="mx.com.gm.ventas.orden"/>
-    <fullyQualifiedTypeName name="com.gm.mundopc.Computadora"/>
-    <fullyQualifiedTypeName name="com.gm.mundopc.Orden"/>
-    <fullyQualifiedTypeName name="Evaluacion_3.Entrada"/>
-    <fullyQualifiedTypeName name="java.util.ArrayList"/>
-    <fullyQualifiedTypeName name="javax.swing.text.html.HTMLDocument.Iterator"/>
-    <fullyQualifiedTypeName name="java.util.Iterator"/>
-    <fullyQualifiedTypeName name="unidad_03.Actividad_A3_08_Clase_fracciones"/>
     <fullyQualifiedTypeName name="unidad_03.Actividad_A3_10_Clase_binario"/>
     <fullyQualifiedTypeName name="java.lang.Long"/>
     <fullyQualifiedTypeName name="java.lang.Integer"/>
@@ -41,7 +24,6 @@
     <fullyQualifiedTypeName name="dominio.conversionObjetos.TipoEscritura"/>
     <fullyQualifiedTypeName name="java.util.concurrent.ConcurrentHashMap"/>
     <fullyQualifiedTypeName name="dominio.conversionObjetos.Empleado"/>
-    <fullyQualifiedTypeName name="dominio.conversionObjetos.Escritor"/>
     <fullyQualifiedTypeName name="java.awt.peer.CheckboxMenuItemPeer"/>
     <fullyQualifiedTypeName name="java.security.PublicKey"/>
     <fullyQualifiedTypeName name="unidad_04.Actividad_4_6_dibujaTriangulo"/>
@@ -55,9 +37,27 @@
     <fullyQualifiedTypeName name="javax.lang.model.element.Element"/>
     <fullyQualifiedTypeName name="java.lang.Math"/>
     <fullyQualifiedTypeName name="javax.swing.plaf.synth.SynthOptionPaneUI"/>
-    <fullyQualifiedTypeName name="java.lang.System"/>
-    <fullyQualifiedTypeName name="java.lang.String"/>
     <fullyQualifiedTypeName name="unidad_05.Actividad_5_3_ClasePersona"/>
     <fullyQualifiedTypeName name="java.util.Scanner"/>
     <fullyQualifiedTypeName name="java.util.Locale"/>
+    <fullyQualifiedTypeName name="dominio.conversionObjetos.Escritor"/>
+    <fullyQualifiedTypeName name="dominio.herencia.empleado"/>
+    <fullyQualifiedTypeName name="dominio.claseObject.Empleado"/>
+    <fullyQualifiedTypeName name="java.lang.SecurityException"/>
+    <fullyQualifiedTypeName name="dominio.clasesAbstractas.figuraGeometrica"/>
+    <fullyQualifiedTypeName name="dominio.clasesAbstractas.Rectangulo"/>
+    <fullyQualifiedTypeName name="accesodatos.IAccesoDatos"/>
+    <fullyQualifiedTypeName name="javax.imageio.plugins.tiff.TIFFImageReadParam"/>
+    <fullyQualifiedTypeName name="dominio.clasesInterfaces.ImplementacionMySql"/>
+    <fullyQualifiedTypeName name="dominio.clasesInterfaces.IAccesoDatos"/>
+    <fullyQualifiedTypeName name="dominio.clasesInterfaces.ImplementacionOracle"/>
+    <fullyQualifiedTypeName name="java.io.Serializable"/>
+    <fullyQualifiedTypeName name="dominio.JavaBeans.personaBean"/>
+    <fullyQualifiedTypeName name="java.lang.System"/>
+    <fullyQualifiedTypeName name="java.lang.Exception"/>
+    <fullyQualifiedTypeName name="java.lang.String"/>
+    <fullyQualifiedTypeName name="javax.management.openmbean.OpenDataException"/>
+    <fullyQualifiedTypeName name="dominio.Manejoexcepciones.operacionExcepcion"/>
+    <fullyQualifiedTypeName name="dominio.Manejoexcepciones.aritmetica"/>
+    <fullyQualifiedTypeName name="java.lang.RuntimeException"/>
 </qualifiedTypeNameHistroy>

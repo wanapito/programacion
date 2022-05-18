@@ -2,18 +2,18 @@ package dominio.JavaBeans;
 
 import java.io.Serializable;
 
-public class personaBean implements Serializable {
-	//en una clase seriable es obligatorio sea privado
-	private String nombre,apellido;
-	//es obligatorio tener un contructor vacio
-public personaBean() {
-	
-}
+public class PersonaBean implements Serializable {
+	// en una clase seriable es obligatorio sea privado
+	private String nombre, apellido;
+	// es obligatorio tener un contructor vacio
+	public PersonaBean() {
+
+	}
 	/**
 	 * @param nombre
 	 * @param apellido
 	 */
-	public personaBean(String nombre, String apellido) {
+	public PersonaBean(String nombre, String apellido) {
 		super();
 		this.nombre = nombre;
 		this.apellido = apellido;
@@ -21,28 +21,32 @@ public personaBean() {
 	/**
 	 * @return el nombre
 	 */
-	public String getNombre() {
+	public final String getNombre() {
 		return nombre;
 	}
 	/**
-	 * @param nombre 
-	 * el nombre a establecer
+	 * @param nombre
+	 *            el nombre a establecer
 	 */
-	public void setNombre(String nombre) {
+	public final void setNombre(String nombre) {
 		this.nombre = nombre;
 	}
 	/**
 	 * @return el apellido
 	 */
-	public String getApellido() {
+	public final String getApellido() {
 		return apellido;
 	}
 	/**
-	 * @param apellido 
-	 * el apellido a establecer
+	 * @param apellido
+	 *            el apellido a establecer
 	 */
-	public void setApellido(String apellido) {
+	public final void setApellido(String apellido) {
 		this.apellido = apellido;
+	}
+	@Override
+	public String toString() {
+		return "personaBean [nombre=" + nombre + ", apellido=" + apellido + "]";
 	}
 
 }

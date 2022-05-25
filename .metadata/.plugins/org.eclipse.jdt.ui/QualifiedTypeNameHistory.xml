@@ -1,23 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="unidad_03.Actividad_A3_10_Clase_binario"/>
-    <fullyQualifiedTypeName name="java.lang.Long"/>
-    <fullyQualifiedTypeName name="java.lang.Integer"/>
-    <fullyQualifiedTypeName name="javax.lang.model.element.NestingKind"/>
-    <fullyQualifiedTypeName name="unidad_03.Actividad_A3_04_NIF"/>
-    <fullyQualifiedTypeName name="Examen.Baneuro.Teclado"/>
-    <fullyQualifiedTypeName name="unidad_03.Actividad_A3_11_Clase_empleado"/>
-    <fullyQualifiedTypeName name="unidad_04.Actividad_4_1_ClaseLlamada"/>
-    <fullyQualifiedTypeName name="java.security.interfaces.RSAMultiPrimePrivateCrtKey"/>
-    <fullyQualifiedTypeName name="javax.print.attribute.IntegerSyntax"/>
-    <fullyQualifiedTypeName name="dominio.enumeraciones.dias"/>
     <fullyQualifiedTypeName name="Test.enumeraciones.Continentes"/>
     <fullyQualifiedTypeName name="javax.management.remote.SubjectDelegationPermission"/>
     <fullyQualifiedTypeName name="Test.modificadoresAcceso.ClaseHija"/>
     <fullyQualifiedTypeName name="dominio.modificadoresAcceso.Clase1"/>
     <fullyQualifiedTypeName name="dominio.sobreescritura.gerente"/>
     <fullyQualifiedTypeName name="dominio.sobreescritura.empleado"/>
-    <fullyQualifiedTypeName name="java.lang.Object"/>
     <fullyQualifiedTypeName name="dominio.instanceOf.Empleado"/>
     <fullyQualifiedTypeName name="java.awt.geom.GeneralPath"/>
     <fullyQualifiedTypeName name="dominio.instanceOf.Gerente"/>
@@ -43,7 +31,6 @@
     <fullyQualifiedTypeName name="dominio.conversionObjetos.Escritor"/>
     <fullyQualifiedTypeName name="dominio.herencia.empleado"/>
     <fullyQualifiedTypeName name="dominio.claseObject.Empleado"/>
-    <fullyQualifiedTypeName name="java.lang.SecurityException"/>
     <fullyQualifiedTypeName name="dominio.clasesAbstractas.figuraGeometrica"/>
     <fullyQualifiedTypeName name="dominio.clasesAbstractas.Rectangulo"/>
     <fullyQualifiedTypeName name="accesodatos.IAccesoDatos"/>
@@ -55,9 +42,22 @@
     <fullyQualifiedTypeName name="dominio.JavaBeans.personaBean"/>
     <fullyQualifiedTypeName name="java.lang.System"/>
     <fullyQualifiedTypeName name="java.lang.Exception"/>
-    <fullyQualifiedTypeName name="java.lang.String"/>
     <fullyQualifiedTypeName name="javax.management.openmbean.OpenDataException"/>
-    <fullyQualifiedTypeName name="dominio.Manejoexcepciones.operacionExcepcion"/>
     <fullyQualifiedTypeName name="dominio.Manejoexcepciones.aritmetica"/>
     <fullyQualifiedTypeName name="java.lang.RuntimeException"/>
+    <fullyQualifiedTypeName name="dominio.Manejoexcepciones.operacionExcepcion"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="java.lang.SecurityException"/>
+    <fullyQualifiedTypeName name="java.util.HashSet"/>
+    <fullyQualifiedTypeName name="java.util.Set"/>
+    <fullyQualifiedTypeName name="java.util.Map"/>
+    <fullyQualifiedTypeName name="java.util.HashMap"/>
+    <fullyQualifiedTypeName name="java.lang.Object"/>
+    <fullyQualifiedTypeName name="dominio.apiCollection.claseGenerica"/>
+    <fullyQualifiedTypeName name="T"/>
+    <fullyQualifiedTypeName name="java.lang.Integer"/>
+    <fullyQualifiedTypeName name="javax.accessibility.AccessibleComponent"/>
+    <fullyQualifiedTypeName name="dominio.ClasesGenericas.claseGenerica"/>
+    <fullyQualifiedTypeName name="java.lang.String"/>
 </qualifiedTypeNameHistroy>

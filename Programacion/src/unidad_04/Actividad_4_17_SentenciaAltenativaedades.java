@@ -1,33 +1,33 @@
 package unidad_04;
 
 /*
- * Se cuenta con la siguiente información:
+ * Se cuenta con la siguiente informaciï¿½n:
 
-Las edades de 50 estudiantes del turno mañana. (entre 16 y 28 años ambos inclusive)
-Las edades de 60 estudiantes del turno tarde. (entre 16 y 35 años ambos inclusive)
-Las edades de 110 estudiantes del turno noche. (entre 18 y 45 años ambos inclusive)
-Las edades de cada estudiante deben  calcularse de forma aleatoria usando el método random de la clase Math.
+Las edades de 50 estudiantes del turno maï¿½ana. (entre 16 y 28 aï¿½os ambos inclusive)
+Las edades de 60 estudiantes del turno tarde. (entre 16 y 35 aï¿½os ambos inclusive)
+Las edades de 110 estudiantes del turno noche. (entre 18 y 45 aï¿½os ambos inclusive)
+Las edades de cada estudiante deben  calcularse de forma aleatoria usando el mï¿½todo random de la clase Math.
 
 Para cada uno de los turnos se pide:
-a) Obtener la mínima, la máxima y el promedio de las edades de cada turno
+a) Obtener la mï¿½nima, la mï¿½xima y el promedio de las edades de cada turno
 b) Mostrar por pantalla un mensaje que indique cual de los tres turnos tiene un promedio de edades mayor
  */
 
 public class Actividad_4_17_SentenciaAltenativaedades {
 
 	public static void main(String[] args) {
-		final int TMañana = 50;
+		final int TMaÃ±ana = 50;
 		final int TTarde = 60;
 		final int TNoche = 110;
-		final int MenorMañana = 16;
-		final int MayorMañana = 28;
+		final int MenorMaÃ±ana = 16;
+		final int MayorMaÃ±ana = 28;
 		final int MenorTarde = 16;
 		final int MayorTarde = 35;
 		final int MenorNoche = 18;
 		final int MayorNoche = 45;
-		int MinMañana = MenorMañana;
-		int MaxMañana = MayorMañana;
-		int SumaMañana = 0;
+		int MinMaÃ±ana = MenorMaÃ±ana;
+		int MaxMaÃ±ana = MayorMaÃ±ana;
+		int SumaMaÃ±ana = 0;
 		int MinTarde = MenorTarde;
 		int MaxTarde = MayorTarde;
 		int SumaTarde = 0;
@@ -35,16 +35,16 @@ public class Actividad_4_17_SentenciaAltenativaedades {
 		int MaxNoche = MayorNoche;
 		int SumaNoche = 0;
 
-		for (int i = 1; i <= TMañana; i++) {
-			int e = (int) (Math.random() * (MayorMañana - MenorMañana + 1)
-					+ MenorMañana);
-			if (e < MinMañana) {
-				MinMañana = e;
+		for (int i = 1; i <= TMaÃ±ana; i++) {
+			int e = (int) (Math.random() * (MayorMaÃ±ana - MenorMaÃ±ana + 1)
+					+ MenorMaÃ±ana);
+			if (e < MinMaÃ±ana) {
+				MinMaÃ±ana = e;
 			}
-			if (e > MaxMañana) {
-				MaxMañana = e;
+			if (e > MaxMaÃ±ana) {
+				MaxMaÃ±ana = e;
 			}
-			SumaMañana += e;
+			SumaMaÃ±ana += e;
 		}
 
 		for (int i = 1; i <= TTarde; i++) {
@@ -70,45 +70,45 @@ public class Actividad_4_17_SentenciaAltenativaedades {
 			}
 			SumaNoche += e;
 		}
-		int promedioMañana = SumaMañana / TMañana;
+		int promedioMaÃ±ana = SumaMaÃ±ana / TMaÃ±ana;
 		int promedioTarde = SumaTarde / TTarde;
 		int promedioNoche = SumaNoche / TNoche;
-		System.out.println("TURNO DE MAÑANA:");
-		System.out.println("EDAD MÍNIMA:" + MinMañana);
-		System.out.println("EDAD MÁXIMA:" + MaxMañana);
-		System.out.println("PROMEDIO:" + promedioMañana);
+		System.out.println("TURNO DE MAï¿½ANA:");
+		System.out.println("EDAD Mï¿½NIMA:" + MinMaÃ±ana);
+		System.out.println("EDAD Mï¿½XIMA:" + MaxMaÃ±ana);
+		System.out.println("PROMEDIO:" + promedioMaÃ±ana);
 		System.out.println("\nTURNO DE TARDE:");
-		System.out.println("EDAD MÍNIMA:" + MinTarde);
-		System.out.println("EDAD MÁXIMA:" + MaxTarde);
+		System.out.println("EDAD Mï¿½NIMA:" + MinTarde);
+		System.out.println("EDAD Mï¿½XIMA:" + MaxTarde);
 		System.out.println("PROMEDIO:" + promedioTarde);
 		System.out.println("\nTURNO DE NOCHE:");
-		System.out.println("EDAD MÍNIMA:" + MinNoche);
-		System.out.println("EDAD MÁXIMA:" + MaxNoche);
+		System.out.println("EDAD Mï¿½NIMA:" + MinNoche);
+		System.out.println("EDAD Mï¿½XIMA:" + MaxNoche);
 		System.out.println("PROMEDIO:" + promedioNoche);
 
-		if (promedioMañana == promedioTarde
-				&& promedioMañana == promedioNoche) {
+		if (promedioMaÃ±ana == promedioTarde
+				&& promedioMaÃ±ana == promedioNoche) {
 			System.out.println(
-					"Los tres turnos tienen el promedio " + promedioMañana);
-		} else if (promedioMañana == promedioTarde
-				&& promedioMañana > promedioNoche) {
+					"Los tres turnos tienen el promedio " + promedioMaÃ±ana);
+		} else if (promedioMaÃ±ana == promedioTarde
+				&& promedioMaÃ±ana > promedioNoche) {
 			System.out
-					.println("Los turnos de mañana y tarde tienen el promedio "
-							+ promedioMañana);
-		} else if (promedioMañana == promedioNoche
-				&& promedioMañana > promedioTarde) {
+					.println("Los turnos de maï¿½ana y tarde tienen el promedio "
+							+ promedioMaÃ±ana);
+		} else if (promedioMaÃ±ana == promedioNoche
+				&& promedioMaÃ±ana > promedioTarde) {
 			System.out
-					.println("Los turnos de mañana y noche tienen el promedio "
-							+ promedioMañana);
+					.println("Los turnos de maï¿½ana y noche tienen el promedio "
+							+ promedioMaÃ±ana);
 		} else if (promedioTarde == promedioNoche
-				&& promedioTarde > promedioMañana) {
+				&& promedioTarde > promedioMaÃ±ana) {
 			System.out.println("Los turnos de tarde y noche tienen el promedio "
-					+ promedioMañana);
-		} else if (promedioMañana > promedioTarde
-				&& promedioMañana > promedioNoche) {
+					+ promedioMaÃ±ana);
+		} else if (promedioMaÃ±ana > promedioTarde
+				&& promedioMaÃ±ana > promedioNoche) {
 			System.out.println(
-					"El turno de mañana tiene el promedio " + promedioMañana);
-		} else if (promedioTarde > promedioMañana
+					"El turno de maï¿½ana tiene el promedio " + promedioMaÃ±ana);
+		} else if (promedioTarde > promedioMaÃ±ana
 				&& promedioTarde > promedioNoche) {
 			System.out.println(
 					"El turno de tarde tiene el promedio " + promedioTarde);

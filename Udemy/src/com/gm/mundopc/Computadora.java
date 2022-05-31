@@ -7,7 +7,7 @@ public class Computadora {
 	private Monitor monitor;
 	private Teclado teclado;
 	private Raton raton;
-	private int contadorComputadoras;
+	private static int contadorComputadoras;
 
 	private Computadora() {
 		this.idComputadora = ++contadorComputadoras;
@@ -96,6 +96,12 @@ public class Computadora {
 	 * @return el contadorComputadoras
 	 */
 	public static int getContadorComputadoras() {
+		try {
+			return contadorComputadoras;
+		} catch (Exception e) {
+			// TODO Bloque catch generado automáticamente
+			e.printStackTrace();
+		}
 		return contadorComputadoras;
 	}
 	/**

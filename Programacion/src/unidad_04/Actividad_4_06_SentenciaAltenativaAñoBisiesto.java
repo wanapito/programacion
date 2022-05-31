@@ -3,25 +3,25 @@ package unidad_04;
 import java.util.Scanner;
 
 /*
- * Cualquier año divisible por 4 es un año bisiesto a excepción de
+ * Cualquier aï¿½o divisible por 4 es un aï¿½o bisiesto a excepciï¿½n de
  *  aquellos que, siendo divisibles por 100, no lo son por 400.
 
 Teniendo esto en cuenta desarrollar un programa en Java que reciba 
-por teclado un año y determine si es un año bisiesto o no.
+por teclado un aï¿½o y determine si es un aï¿½o bisiesto o no.
 
  */
-public class Actividad_4_06_SentenciaAltenativaAñoBisiesto {
+public class Actividad_4_06_SentenciaAltenativaAÃ±oBisiesto {
 
 	public static void main(String[] args) {
-		// TODO Esbozo de método generado automáticamente
-		int año;
+		// TODO Esbozo de mï¿½todo generado automï¿½ticamente
+		int aÃ±o;
 		Scanner teclado = new Scanner(System.in);
-		System.out.println("introduce un año");
-		año = teclado.nextInt();
-		if ((año % 4 == 0 && año % 100 != 0) || año % 400 == 0)
-			System.out.println("El año " + año + " es bisiesto.");
+		System.out.println("introduce un aï¿½o");
+		aÃ±o = teclado.nextInt();
+		if ((aÃ±o % 4 == 0 && aÃ±o % 100 != 0) || aÃ±o % 400 == 0)
+			System.out.println("El aï¿½o " + aÃ±o + " es bisiesto.");
 		else
-			System.out.println("El año " + año + " no es bisiesto.");
+			System.out.println("El aï¿½o " + aÃ±o + " no es bisiesto.");
 		teclado.close();
 	}
 }

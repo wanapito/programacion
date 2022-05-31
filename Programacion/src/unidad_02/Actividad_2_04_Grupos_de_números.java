@@ -2,59 +2,52 @@ package unidad_02;
 
 import java.util.Scanner;
 
-public class Actividad_2_04_Grupos_de_números {
+public class Actividad_2_04_Grupos_de_nÃºmeros {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		/*
-		 * Realizar un programa que determine de un conjunto de 10 números enteros,
-		 *  introducidos por teclado, cuántos son menores que 18, cuántos mayores de 65
-		 *   y cuántos están comprendidos entre 18 y 65. Nota: Para hacer este ejercicio
-		 *    será interesante disponer de una estructura de almacenamiento de tipo array 
-		 *    que contenga los números. Ver Anexo I: Introducción a los arrays.
+		 * Realizar un programa que determine de un conjunto de 10 nï¿½meros
+		 * enteros, introducidos por teclado, cuï¿½ntos son menores que 18,
+		 * cuï¿½ntos mayores de 65 y cuï¿½ntos estï¿½n comprendidos entre 18 y 65.
+		 * Nota: Para hacer este ejercicio serï¿½ interesante disponer de una
+		 * estructura de almacenamiento de tipo array que contenga los nï¿½meros.
+		 * Ver Anexo I: Introducciï¿½n a los arrays.
 		 */
-		
-		Scanner teclado= new Scanner(System.in);
-	
-		
-		//declarar variables
+
+		Scanner teclado = new Scanner(System.in);
+
+		// declarar variables
 		int numero;
 		int mayores;
 		int intermedios;
 		int menores;
 		int contador;
-		
-		//inicializar contador
+
+		// inicializar contador
 		mayores = 0;
 		intermedios = 0;
 		menores = 0;
-		
+
 		System.out.println("Introduce 10 numeros");
-		
-		for ( contador = 0; contador < 10; contador++)
-		{
-			System.out.println("Número " + (contador+1));
+
+		for (contador = 0; contador < 10; contador++) {
+			System.out.println("Nï¿½mero " + (contador + 1));
 			numero = teclado.nextInt();
-			if (numero <15)
-			{
+			if (numero < 15) {
 				menores++;
-			}
-			else if (numero >55)
-			{
+			} else if (numero > 55) {
 				mayores++;
-			}
-			else
-			{
+			} else {
 				intermedios++;
 				teclado.close();
-			}// fin si			
-			
-		}// fin para
-			
+			} // fin si
+
+		} // fin para
+
 		System.out.println("Los numeros menores son :" + menores);
 		System.out.println("Los numeros intermedios son: " + intermedios);
 		System.out.println("Los numeros mayores son: " + mayores);
-			
 
 	}
 

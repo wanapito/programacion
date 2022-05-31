@@ -7,7 +7,7 @@ import java.util.Scanner;
  * en el que se ingresan un conjunto de n edades de personas por teclado. 
  * El programa finalizara cuando el promedio de las edades sea superior a 25.
  */
-public class Actividad_4_15_SentenciaAltenativa25añosdeMedia {
+public class Actividad_4_15_SentenciaAltenativa25aÃ±osdeMedia {
 
 	public static void main(String[] args) {
 		int Edad;

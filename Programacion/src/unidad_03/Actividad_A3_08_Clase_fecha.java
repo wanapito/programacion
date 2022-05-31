@@ -3,45 +3,45 @@ package unidad_03;
 import java.util.Scanner;
 
 /*
- * Crear una Clase Fecha en Java. La clase tendrá tres atributos privados 
- * dia, mes y año de tipo int. La clase contendrá los siguientes métodos:
+ * Crear una Clase Fecha en Java. La clase tendrï¿½ tres atributos privados 
+ * dia, mes y aï¿½o de tipo int. La clase contendrï¿½ los siguientes mï¿½todos:
 Constructor por defecto.
-Constructor con tres parámetros para crear objetos con valores iniciales 
-(sólo modificará los valores iniciales si la fecha es correcta)
-Métodos set y get para asignar y obtener los valores de los atributos de 
-la clase. (sólo modificará los valores si generan una fecha correcta)
-Método fechaCorrecta(int dia, int mes, int anio) que comprueba si la fecha 
+Constructor con tres parï¿½metros para crear objetos con valores iniciales 
+(sï¿½lo modificarï¿½ los valores iniciales si la fecha es correcta)
+Mï¿½todos set y get para asignar y obtener los valores de los atributos de 
+la clase. (sï¿½lo modificarï¿½ los valores si generan una fecha correcta)
+Mï¿½todo fechaCorrecta(int dia, int mes, int anio) que comprueba si la fecha 
 es correcta. Devuelve un valor de tipo boolean indicando si la fecha es 
-correcta o no. Este método a su vez utilizará un método privado de la clase 
-llamado esBisiesto(int anio) que calcula si el año es o no bisiesto. 
-El método esBisiesto devuelve true si el año es bisiesto y false si no lo es.
-Método diaSiguiente() que cambia la fecha actual por la del día siguiente. 
-El objeto de la clase Fecha al que se le aplique este método deberá quedar 
-siempre en un estado consistente, es decir, la nueva fecha deberá ser correcta.
-Modificar el método toString() heredado de Object para mostrar las fechas 
-de la forma dd-mm-aaaa. El día y el mes se deben mostrar con dos cifras. 
-Si el dia o el mes tienen solo una cifra se escribirá un cero delante. 
-Por ejemplo si la fecha es dia=1, mes=6, año= 2015 la fecha que se 
-mostrará será: 01-06-2015
-Escribe un programa para probar la clase Fecha. El método diaSiguiete() 
-pruébalo dentro de un bucle que imprima la fecha durante cada iteración del bucle.
+correcta o no. Este mï¿½todo a su vez utilizarï¿½ un mï¿½todo privado de la clase 
+llamado esBisiesto(int anio) que calcula si el aï¿½o es o no bisiesto. 
+El mï¿½todo esBisiesto devuelve true si el aï¿½o es bisiesto y false si no lo es.
+Mï¿½todo diaSiguiente() que cambia la fecha actual por la del dï¿½a siguiente. 
+El objeto de la clase Fecha al que se le aplique este mï¿½todo deberï¿½ quedar 
+siempre en un estado consistente, es decir, la nueva fecha deberï¿½ ser correcta.
+Modificar el mï¿½todo toString() heredado de Object para mostrar las fechas 
+de la forma dd-mm-aaaa. El dï¿½a y el mes se deben mostrar con dos cifras. 
+Si el dia o el mes tienen solo una cifra se escribirï¿½ un cero delante. 
+Por ejemplo si la fecha es dia=1, mes=6, aï¿½o= 2015 la fecha que se 
+mostrarï¿½ serï¿½: 01-06-2015
+Escribe un programa para probar la clase Fecha. El mï¿½todo diaSiguiete() 
+pruï¿½balo dentro de un bucle que imprima la fecha durante cada iteraciï¿½n del bucle.
  */
 public class Actividad_A3_08_Clase_fecha {
 	private int dia;
 	private int mes;
-	private int año;
+	private int aÃ±o;
 	public Actividad_A3_08_Clase_fecha() {
 
 	}
-	public Actividad_A3_08_Clase_fecha(int dia, int mes, int año) {
-		if (fechaCorrecta(dia, mes, año)) {
+	public Actividad_A3_08_Clase_fecha(int dia, int mes, int aÃ±o) {
+		if (fechaCorrecta(dia, mes, aÃ±o)) {
 			this.dia = dia;
 			this.mes = mes;
-			this.año = año;
+			this.aÃ±o = aÃ±o;
 		}
 
 	}
-	public static boolean fechaCorrecta(int dia, int mes, int año) {
+	public static boolean fechaCorrecta(int dia, int mes, int aÃ±o) {
 		if (mes < 1 || mes > 12)
 			return false;
 		else {
@@ -64,18 +64,18 @@ public class Actividad_A3_08_Clase_fecha {
 						return false;
 					break;
 				default :
-					if (esBisiesto(año) && (dia < 1 || dia > 29))
+					if (esBisiesto(aÃ±o) && (dia < 1 || dia > 29))
 						return false;
-					else if (!esBisiesto(año) && (dia < 1 || dia > 28))
+					else if (!esBisiesto(aÃ±o) && (dia < 1 || dia > 28))
 						return false;
 
 			}
 			return true;
 		}
 	}
-	public static boolean esBisiesto(int año) {
-		if ((año % 4 == 0 && año % 100 != 0) || año % 400 == 0) {
-			System.out.println("es un año bisieto");
+	public static boolean esBisiesto(int aÃ±o) {
+		if ((aÃ±o % 4 == 0 && aÃ±o % 100 != 0) || aÃ±o % 400 == 0) {
+			System.out.println("es un aï¿½o bisieto");
 			return true;
 		} else {
 			System.out.println("no es bisiesto");
@@ -84,7 +84,7 @@ public class Actividad_A3_08_Clase_fecha {
 
 	}
 	public void diaSiguiente() {
-		if (fechaCorrecta(dia, mes, año)) {
+		if (fechaCorrecta(dia, mes, aÃ±o)) {
 			{
 				if (mes == 1 || mes == 3 || mes == 5 || mes == 7 || mes == 8
 						|| mes == 10 || mes == 12) {
@@ -92,7 +92,7 @@ public class Actividad_A3_08_Clase_fecha {
 						dia = 1;
 						mes++;
 					} else if (dia == 31 && mes == 12) {
-						año++;
+						aÃ±o++;
 						mes = 1;
 						dia = 1;
 					}
@@ -108,7 +108,7 @@ public class Actividad_A3_08_Clase_fecha {
 						dia++;
 					}
 				} else if (mes == 2) {
-					if (esBisiesto(año)) {
+					if (esBisiesto(aÃ±o)) {
 						if (dia == 29) {
 							mes++;
 							dia = 1;
@@ -140,7 +140,7 @@ public class Actividad_A3_08_Clase_fecha {
 	 *            el dia a establecer
 	 */
 	public void setDia(int dia) {
-		if (fechaCorrecta(dia, this.mes, this.año))
+		if (fechaCorrecta(dia, this.mes, this.aÃ±o))
 			this.dia = dia;
 	}
 	/**
@@ -154,22 +154,22 @@ public class Actividad_A3_08_Clase_fecha {
 	 *            el mes a establecer
 	 */
 	public void setMes(int mes) {
-		if (fechaCorrecta(this.dia, mes, this.año))
+		if (fechaCorrecta(this.dia, mes, this.aÃ±o))
 			this.mes = mes;
 	}
 	/**
-	 * @return el año
+	 * @return el aï¿½o
 	 */
-	public int getAño() {
-		return año;
+	public int getAÃ±o() {
+		return aÃ±o;
 	}
 	/**
-	 * @param año
-	 *            el año a establecer
+	 * @param aï¿½o
+	 *            el aï¿½o a establecer
 	 */
-	public void setAño(int año) {
-		if (fechaCorrecta(this.dia, this.mes, año))
-			this.año = año;
+	public void setAÃ±o(int aÃ±o) {
+		if (fechaCorrecta(this.dia, this.mes, aÃ±o))
+			this.aÃ±o = aÃ±o;
 	}
 	@Override
 	public String toString() {
@@ -184,7 +184,7 @@ public class Actividad_A3_08_Clase_fecha {
 		if (mes >= 10)
 			m = "" + mes;
 
-		return dia + "-" + mes + "-" + año;
+		return dia + "-" + mes + "-" + aÃ±o;
 	}
 	public static void main(String[] args) {
 		Scanner teclado = new Scanner(System.in);
@@ -195,7 +195,7 @@ public class Actividad_A3_08_Clase_fecha {
 			dia = teclado.nextInt();
 			System.out.println("Escribe el mes");
 			mes = teclado.nextInt();
-			System.out.println("Escribe el año");
+			System.out.println("Escribe el aï¿½o");
 			anio = teclado.nextInt();
 		}
 		Actividad_A3_08_Clase_fecha miFecha = new Actividad_A3_08_Clase_fecha(
@@ -203,7 +203,7 @@ public class Actividad_A3_08_Clase_fecha {
 
 		System.out.println("Dia actual: " + miFecha);
 
-		System.out.println("Cuantos días quieres que muestre");
+		System.out.println("Cuantos dï¿½as quieres que muestre");
 		int n = teclado.nextInt();
 
 		for (int i = 0; i < n; i++) {

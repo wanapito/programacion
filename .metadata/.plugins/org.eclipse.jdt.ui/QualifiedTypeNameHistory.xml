@@ -1,8 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="java.awt.peer.CheckboxMenuItemPeer"/>
-    <fullyQualifiedTypeName name="java.security.PublicKey"/>
-    <fullyQualifiedTypeName name="unidad_04.Actividad_4_6_dibujaTriangulo"/>
     <fullyQualifiedTypeName name="unidad_04.Actividad_4_2_MCM_2_Numeros"/>
     <fullyQualifiedTypeName name="unidad_04.Actividad_4_2_MCM_3_Numeros"/>
     <fullyQualifiedTypeName name="javax.management.loading.PrivateClassLoader"/>
@@ -60,4 +57,7 @@
     <fullyQualifiedTypeName name="java.util.Scanner"/>
     <fullyQualifiedTypeName name="java.lang.System"/>
     <fullyQualifiedTypeName name="Test"/>
+    <fullyQualifiedTypeName name="org.w3c.dom.css.CSSImportRule"/>
+    <fullyQualifiedTypeName name="ayudaexamen_2022.MenuPrincipal"/>
+    <fullyQualifiedTypeName name="ayudaexamen_2022.IMadrid"/>
 </qualifiedTypeNameHistroy>
